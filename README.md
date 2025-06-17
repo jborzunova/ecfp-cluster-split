@@ -27,18 +27,17 @@ To mitigate this:
 
 **Notebook**
 
-The full clustering workflow and group-aware data splitting are demonstrated in the Jupyter notebook:
-📘 ecfp_cluster_split.ipynb
+The full clustering workflow and group-aware data splitting are demonstrated in the Jupyter notebook: 📘 ecfp_cluster_split.ipynb
 
 It includes:
 
     Molecular fingerprint generation (ECFP)
 
-    KMeans clustering
-
-    GroupKFold split that keeps clusters intact
+    Butina clustering algorithm, which is a form of hierarchical clustering specifically designed for chemical fingerprints using a distance (or similarity) threshold
 
     Visualization of clustering results
+
+    An example of GroupKFold split that keeps clusters intact
 
 
 **Visualization**
