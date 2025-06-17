@@ -31,13 +31,13 @@ The full clustering workflow and group-aware data splitting are demonstrated in 
 
 It includes:
 
-    - Molecular fingerprint generation (ECFP)
+- Molecular fingerprint generation (ECFP)
 
-    - Butina clustering algorithm, which is a form of hierarchical clustering specifically designed for chemical fingerprints using a distance (or similarity) threshold
+- Butina clustering algorithm, which is a form of hierarchical clustering specifically designed for chemical fingerprints using a distance (or similarity) threshold
 
-    - Visualization of clustering results
+- Visualization of clustering results
 
-    - An example of GroupKFold split that keeps clusters intact
+- An example of GroupKFold split that keeps clusters intact
 
 
 **Visualization**
@@ -48,20 +48,20 @@ The PDF is large and detailed — open it separately to explore all clusters and
 
 **Key Features**
 
-    - Group-aware cross-validation (GroupKFold)
+- Group-aware cross-validation (GroupKFold)
 
-    - Easy-to-extend modular structure (src/)
+- Easy-to-extend modular structure (src/)
 
-    - Clean visualization utilities
+- Clean visualization utilities
 
-    - Reproducible and readable Jupyter pipeline
+- Reproducible and readable Jupyter pipeline
 
 **Getting Started**
 
-    Install required libraries (e.g. RDKit, scikit-learn, pandas, matplotlib) and run the notebook:
+Install required libraries (e.g. RDKit, scikit-learn, pandas, matplotlib) and run the notebook:
 
-    jupyter notebook ecfp_cluster_split.ipynb
+jupyter notebook ecfp_cluster_split.ipynb
 
 **License**
 
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
